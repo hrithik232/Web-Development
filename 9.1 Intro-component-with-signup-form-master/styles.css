@@ -1,0 +1,135 @@
+body {
+  text-align: center;
+}
+
+#bg {
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("images/bg-intro-desktop.png");
+  width: 90%;
+  height: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+  display: table;
+  clear: both;
+  margin-top: 2.5%;
+}
+
+.row {
+  padding: 5% 11%;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.paragraph {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.column {
+  padding-top: 4%;
+  width: 50%;
+  text-align: left;
+  align-self: center;
+  padding-right: 50px;
+}
+
+.trial-line {
+  align-items: center;
+  text-align: center;
+  background-color: hsl(248, 32%, 49%);
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  border-radius: 6.5px;
+  box-shadow: 0px 6.5px rgba(0, 0, 0, 0.15);
+}
+
+.card {
+  border: 1px solid hsl(248, 32%, 49%);
+}
+
+.info {
+  background-color: white;
+  padding: 7.5% 7% 3% 7%;
+  border-radius: 7.5px;
+  box-shadow: 0px 6.5px rgba(0, 0, 0, 0.15);
+}
+
+.form-control {
+  display: inline-block;
+  padding: 12px 50px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  opacity: 0.9;
+
+}
+
+.try-bold {
+  font-weight: 600;
+}
+
+.btn,
+.btn:focus {
+  padding: 2.5%;
+  box-shadow: 0px 3.5px rgba(56, 170, 140, 0.8);
+  border-color: rgb(0, 210, 0);
+  background-color: hsla(154, 59%, 51%);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.terms {
+  font-size: 10px;
+  text-align: center;
+  padding: 3% 0 0 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  opacity: 0.25;
+}
+
+.terms-red {
+  font-size: 10px;
+  text-align: center;
+  padding: 3% 0 0 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: hsla(0, 100%, 74%, 1);
+  opacity: 1;
+}
+
+.middle {
+  text-align: center;
+  line-height: 2;
+}
+
+.form-control:focus {
+  border-color: hsl(249, 10%, 26%);
+  box-shadow: none;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: hsla(154, 59%, 51%, 0.5);
+  border-color: rgba(0, 210, 0, 0.4);
+  box-shadow: 0px 3.5px rgba(56, 170, 140, 0.5);
+}
+
+.error {
+  border-color: hsl(0, 100%, 74%) ;
+  border-width: 2px;
+}
+
+
